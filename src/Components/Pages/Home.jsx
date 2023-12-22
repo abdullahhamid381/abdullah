@@ -5,6 +5,7 @@ import FormDetail from '../Home/FormDetail'
 import About from '../Home/About'
 import Skills from '../Home/Skill'
 import MouseTracker from '../Home/MouseTracker'
+import Slider from '../Home/Slider'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <FormDetail/>
         <About/>
         <Skills/>
+        <Slider/>
     </div>
   )
 }
