@@ -4,10 +4,12 @@ import Hero from '../Home/Hero'
 import FormDetail from '../Home/FormDetail'
 import About from '../Home/About'
 import Skills from '../Home/Skill'
+import MouseTracker from '../Home/MouseTracker'
 
 const Home = () => {
   return (
     <div>
+      <MouseTracker/>
         <Navbar/>
         <Hero/>
         <FormDetail/>

@@ -7,6 +7,7 @@ import { MdEmail } from "react-icons/md";
 import "./Scss/Navbar.scss";
 import {AiOutlineClose} from 'react-icons/ai'
 import {GiHamburgerMenu} from 'react-icons/gi'
+import { PopupForm } from "./PopupForm";
 
 
 const style = {
@@ -71,7 +72,7 @@ function Navbar() {
       >
         <Box sx={style}>
           <Typography id="modal-modal-title" variant="h6" component="h2">
-      
+      <PopupForm/>
           </Typography>
         
         </Box>
