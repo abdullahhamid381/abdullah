@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Scss/Slider.scss';
-
+import { FaLongArrowAltLeft, FaLongArrowAltRight } from "react-icons/fa";
 const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -11,6 +11,7 @@ const Slider = () => {
     './images/global.png',
     './images/helo1.png',
     './images/helo2.png',
+    
   ];
 
   const showNext = () => {
@@ -37,15 +38,15 @@ heights with our portfolio expertise</h1>
       <div className="slider">
         {images.slice(currentIndex, currentIndex + 2).map((image, index) => (
           <div key={index} className="slide">
-            <img src={image} alt={`Image ${index + 1}`} />
+            <img src={image}title='Click For Live View' alt={`Image ${index + 1}`} />
           </div>
         ))}
       </div>
       <div className="controls">
-        <button onClick={showPrev}>Prev</button>
-        <button onClick={showNext}>Next</button>
+        <button onClick={showPrev} className='back'><FaLongArrowAltLeft  style={{marginTop:'5px'}}/></button>
+        <button onClick={showNext} className='next'><FaLongArrowAltRight style={{marginTop:'5px'}} /></button>
       </div>
-      <div className="pagination-dots">
+      {/* <div className="pagination-dots">
         {images.map((_, index) => (
           <div
             key={index}
@@ -53,7 +54,7 @@ heights with our portfolio expertise</h1>
             onClick={() => handleDotClick(index)}
           />
         ))}
-      </div>
+      </div> */}
     </div>
     </div>
     </div>
