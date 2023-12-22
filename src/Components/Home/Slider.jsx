@@ -29,7 +29,7 @@ const Slider = () => {
     <div className='back-slider' >
         <div className='width'>
         <p>MY RECENT PORTFOLIO</p>
-            <h1>Elevate your brand to ne <br />
+            <h1>Elevate your brand to new <br />
 heights with our portfolio expertise</h1>
     
         <div className="slider-container">
