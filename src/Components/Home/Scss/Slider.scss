@@ -41,7 +41,8 @@
     }
 
     .slider {
-      display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
       overflow: hidden;
       transition: transform 0.3s ease; // Add transition for smooth sliding
       gap: 20px;
