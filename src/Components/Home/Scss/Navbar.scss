@@ -6,6 +6,8 @@
   width: 100%;
   margin: auto;
   left: 111px;
+  z-index: 9;
+  
     .navbar {
          background-color: #141C27;
     /* height: 80px; */
@@ -18,7 +20,7 @@
     align-items: center;
    
     position: relative;;
-    z-index: 20;
+
     /* height: 0; */
     height: 0;
     padding: 40px;
