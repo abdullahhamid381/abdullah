@@ -6,12 +6,26 @@ const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = [
-    './images/global.png',
-    './images/helo1.png',
-    './images/helo2.png',
-    './images/global.png',
-    './images/helo1.png',
-    './images/helo2.png',
+    {
+        img:'./images/global.png',
+        p:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit odio, nam cum, eius officiis iusto ducimus corporis dolorum voluptates velit porro deleniti ex quaerat praesentium ipsum voluptas? Quam eos animi, libero excepturi reprehenderit itaque architecto possimus minus laboriosam fuga porro.'
+    },
+    {
+        img:'./images/global.png',
+        p:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit odio, nam cum, eius officiis iusto ducimus corporis dolorum voluptates velit porro deleniti ex quaerat praesentium ipsum voluptas? Quam eos animi, libero excepturi reprehenderit itaque architecto possimus minus laboriosam fuga porro.'
+    },
+    {
+        img:'./images/global.png',
+        p:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit odio, nam cum, eius officiis iusto ducimus corporis dolorum voluptates velit porro deleniti ex quaerat praesentium ipsum voluptas? Quam eos animi, libero excepturi reprehenderit itaque architecto possimus minus laboriosam fuga porro.'
+    },
+    {
+        img:'./images/global.png',
+        p:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit odio, nam cum, eius officiis iusto ducimus corporis dolorum voluptates velit porro deleniti ex quaerat praesentium ipsum voluptas? Quam eos animi, libero excepturi reprehenderit itaque architecto possimus minus laboriosam fuga porro.'
+    },
+    {
+        img:'./images/global.png',
+        p:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit odio, nam cum, eius officiis iusto ducimus corporis dolorum voluptates velit porro deleniti ex quaerat praesentium ipsum voluptas? Quam eos animi, libero excepturi reprehenderit itaque architecto possimus minus laboriosam fuga porro.'
+    },
   ];
 
   const showNext = () => {
@@ -36,10 +50,10 @@ const Slider = () => {
             {images.slice(currentIndex, currentIndex + 2).map((image, index) => (
               <div key={index} className="slide">
                 <div className="image-container">
-                  <img src={image} title="Click For Live View" alt={`Image ${index + 1}`} />
+                  <img src={image.img} title="Click For Live View" alt={`Image ${index + 1}`} />
                   <div className="overlay">
                   <div className='para'>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit odio, nam cum, eius officiis iusto ducimus corporis dolorum voluptates velit porro deleniti ex quaerat praesentium ipsum voluptas? Quam eos animi, libero excepturi reprehenderit itaque architecto possimus minus laboriosam fuga porro.</p>
+                    <p>{image.p}</p>
              
                  <button>Live Preview</button>
                  </div>

@@ -6,6 +6,7 @@ import About from '../Home/About'
 import Skills from '../Home/Skill'
 import MouseTracker from '../Home/MouseTracker'
 import Slider from '../Home/Slider'
+import Subscribe from '../Home/Subscribe'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <About/>
         <Skills/>
         <Slider/>
+        <Subscribe/>
     </div>
   )
 }
