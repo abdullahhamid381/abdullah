@@ -17,7 +17,7 @@ const About = () => {
                             <button></button>
                         </div>
                         <div className='about-detail-text'>
-                            <p>Dynamic ReactJS and Node.js developer with a formidable two-year track record. Expertise in crafting high-impact, responsive interfaces and robust server-side solutions. Demonstrated ability to innovate and streamline development processes. Ready to elevate your projects with my seasoned skills. <Link to='/about' style={{textDecoration:'none'}}><span>More ...</span></Link></p>
+                            <p>Hello, I'm a dynamic Full Stack Developer with a passion for crafting seamless digital experiences. With a robust background in React.js and Node.js, I bring two years of hands-on expertise to the table. My journey in the world of web development has equipped me with a deep understanding of front-end intricacies and back-end functionalities. <Link to='/about' style={{textDecoration:'none'}}><span>More ...</span></Link></p>
                             <a href="Abdullah Hamid Cv.pdf" download='Abdullah Hamid Cv.pdf'>  <button className='download'>Download Cv <FiDownload /></button></a>
                         </div>
                     </div>
