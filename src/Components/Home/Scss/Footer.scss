@@ -1,0 +1,42 @@
+.footer-back{
+    background: #02050A;
+    .width{
+        width: 100%;
+        max-width: 1300px;
+        margin: auto;
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            place-items: center;
+            place-content: center;
+
+            .item-flex{
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                h1{
+                    color: white;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+                p{
+                    color: white;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+                .img-div{
+                    background: #55E6A5;
+                    height: 100px;
+                    border-radius: 180px;
+                    width: 100px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                img{
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
