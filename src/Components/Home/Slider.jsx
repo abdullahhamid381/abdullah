@@ -39,7 +39,7 @@ const Slider = () => {
   return (
     <div className="back-slider">
       <div className="width">
-        <p>MY RECENT PORTFOLIO</p>
+        <p>MY RECENT PROJECTS</p>
         <h1>
           Elevate your brand to new <br />
           heights with our portfolio expertise

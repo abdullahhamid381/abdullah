@@ -78,7 +78,7 @@ export const Form = () => {
     <div className="form-parent">
       <div className='touch'>
         <h1>GET TOUCH ME?</h1>
-        <p>For your car we will do everything advice design in us repairs and maintenance We are the some preferred.</p>
+        <p>Feel free to reach out for collaborative projects - Let's code something amazing together!.</p>
       </div>
       <form ref={form} onSubmit={sendEmail}>
         <div className='name-parent'>
