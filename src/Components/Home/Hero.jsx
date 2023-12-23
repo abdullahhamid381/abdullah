@@ -32,7 +32,7 @@ const Hero = () => {
       <div className='hero-back'>
         <div className='text-img'>
           <div className="typing-animation">
-            <h1>HI, I'M ABDULLAH!  CREATIVE <br />   <span></span></h1>
+            <h1>HI, I'M ABDULLAH!  CREATIVE <br />   <span>FULL STACK DEV</span></h1>
             <p>
             Dynamic ReactJS and Node.js developer with a formidable two-year track record. Expertise in crafting high-impact, responsive interfaces and robust server-side solutions. Demonstrated ability to innovate and streamline development processes. Ready to elevate your projects with my seasoned skills.</p>
             <div className='buttons'>

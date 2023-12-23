@@ -56,9 +56,9 @@ function Navbar() {
            
            
             <li className="nav-item">
-      <Link to='#skill'>
+     
       Services
-      </Link>
+      
             </li>
          
   
