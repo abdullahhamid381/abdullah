@@ -8,6 +8,7 @@ import "./Scss/Navbar.scss";
 import {AiOutlineClose} from 'react-icons/ai'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import { PopupForm } from "./PopupForm";
+import { Link } from "react-router-dom";
 
 
 const style = {
@@ -42,11 +43,15 @@ function Navbar() {
           <div style={{marginLeft:'-80px'}}>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
+          <Link to='/' style={{color:'white',textDecoration:'none'}}>
           Home
+          </Link>
             </li>
           
             <li className="nav-item">
-        About
+       <Link to='/about' style={{color:'white',textDecoration:'none'}}>
+       About
+       </Link>
             </li>
            
            

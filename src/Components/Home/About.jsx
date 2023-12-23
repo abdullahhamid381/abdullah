@@ -1,6 +1,7 @@
 import React from 'react'
 import './Scss/About.scss'
 import { FiDownload } from "react-icons/fi";
+import { Link } from 'react-router-dom';
 const About = () => {
     return (
         <div className='about-parent'>
@@ -16,7 +17,7 @@ const About = () => {
                             <button></button>
                         </div>
                         <div className='about-detail-text'>
-                            <p>Dynamic ReactJS and Node.js developer with a formidable two-year track record. Expertise in crafting high-impact, responsive interfaces and robust server-side solutions. Demonstrated ability to innovate and streamline development processes. Ready to elevate your projects with my seasoned skills. <span>More ...</span></p>
+                            <p>Dynamic ReactJS and Node.js developer with a formidable two-year track record. Expertise in crafting high-impact, responsive interfaces and robust server-side solutions. Demonstrated ability to innovate and streamline development processes. Ready to elevate your projects with my seasoned skills. <Link to='/about' style={{textDecoration:'none'}}><span>More ...</span></Link></p>
                             <a href="Abdullah Hamid Cv.pdf" download='Abdullah Hamid Cv.pdf'>  <button className='download'>Download Cv <FiDownload /></button></a>
                         </div>
                     </div>

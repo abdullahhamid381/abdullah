@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import Home from './Components/Pages/Home';
+import { Route, Routes } from 'react-router';
+import AboutPage from './Components/Pages/Aboutpage';
 
 
 const App = ({ toggleTheme }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate a delay for demonstration purposes (you would replace this with your actual loading logic)
+ 
     const delay = setTimeout(() => {
-      setLoading(false);
+      setLoading(false);x
     }, 2000);
 
     // Cleanup the timeout to prevent memory leaks
@@ -19,16 +21,19 @@ const App = ({ toggleTheme }) => {
     <div>
 
   {loading ? (
-        // Show loading component while the site is loading
+   
         <div style={{background:'#02050A',height:'100vh',position:'relative'}}>
         <img src="./images/loading.gif" alt="" style={{width:'20%',position:'absolute',left:'40%',top:'30%'}} />
       </div>
       ) : (
-        // Render your actual content when the site is fully loaded
+ 
         <div>
       
-<Home/>
-          {/* Add the rest of your components and content here */}
+<Routes>
+  <Route path='/' element={<Home/>}/>
+  <Route path='/about' element={<AboutPage/>}/>
+</Routes>
+        
         </div>
       )}
 
