@@ -21,7 +21,9 @@ const AboutPage = () => {
                         <div className='about-detail-text'>
                             <p>Hello, I'm a dynamic Full Stack Developer with a passion for crafting seamless digital experiences. With a robust background in React.js and Node.js, I bring two years of hands-on expertise to the table. My journey in the world of web development has equipped me with a deep understanding of front-end intricacies and back-end functionalities.
                                 <br /><br />
-                                In the realm of React.js, I excel in building interactive and responsive user interfaces that captivate users from the first click. Leveraging the power of Node.js on the server side, I thrive in architecting scalable and efficient back-end solutions, ensuring a robust foundation for web applications.
+                                My proficiency in React.js extends beyond mere UI development, as I specialize in building intuitive and responsive front-end interfaces that enhance user experiences. On the back end, my expertise in Node.js enables me to create efficient and scalable server-side applications, ensuring optimal performance and reliability. I am well-versed in the entire development lifecycle, from conceptualization and design to implementation and deployment.
+                                <br /><br />
+                                With a keen eye for detail, I have successfully collaborated on diverse projects, contributing to the development of feature-rich and high-performance applications. My commitment to staying abreast of the latest industry trends and technologies ensures that I bring a forward-thinking approach to every project. Ready to tackle new challenges, I am excited to continue pushing the boundaries of web development and delivering innovative solutions that make a lasting impact.
                             </p>
                             <a href="Abdullah Hamid Cv.pdf" download='Abdullah Hamid Cv.pdf'>  <button className='download'>Download Cv <FiDownload /></button></a>
                         </div>
