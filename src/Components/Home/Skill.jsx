@@ -58,7 +58,7 @@ const Skills = () => {
   }, []);
 
   return (
-<div className="skill-back-parent">
+<div className="skill-back-parent" id='skill'>
     <div className="skill-width">
     <div>
       <div className="section" ref={sectionRef}>

@@ -37,7 +37,7 @@ export const Subscribe= () => {
 
     const errors = {};
 
-    if (!emailInput.value.trim()) {
+    if (!emailInput.value.trdim()) {
       errors.email = 'Email is required.';
     }
 
