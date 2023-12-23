@@ -19,7 +19,10 @@ const AboutPage = () => {
                             <button></button>
                         </div>
                         <div className='about-detail-text'>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reiciendis, non id explicabo, quasi eveniet, temporibus sed dolorum dicta cupiditate nobis cumque suscipit. Omnis delectus reprehenderit quasi quisquam, dolorem, corporis amet atque libero minus nisi aliquid asperiores? Dolorem suscipit eum officia praesentium sunt eaque voluptatem error hic? Obcaecati officiis reiciendis quibusdam totam illum? Repudiandae rem sapiente error sed quis. Dicta aspernatur repellat aliquid vitae corporis eum repudiandae quis dignissimos cumque quas. Maxime, esse soluta! Accusamus aspernatur perspiciatis repellat cum tenetur, dolores consequuntur nihil a rem in officia aut? Dolorum fugit nemo at deleniti, sed illo possimus maxime dolore vero odio.</p>
+                            <p>Hello, I'm a dynamic Full Stack Developer with a passion for crafting seamless digital experiences. With a robust background in React.js and Node.js, I bring two years of hands-on expertise to the table. My journey in the world of web development has equipped me with a deep understanding of front-end intricacies and back-end functionalities.
+                                <br /><br />
+                                In the realm of React.js, I excel in building interactive and responsive user interfaces that captivate users from the first click. Leveraging the power of Node.js on the server side, I thrive in architecting scalable and efficient back-end solutions, ensuring a robust foundation for web applications.
+                            </p>
                             <a href="Abdullah Hamid Cv.pdf" download='Abdullah Hamid Cv.pdf'>  <button className='download'>Download Cv <FiDownload /></button></a>
                         </div>
                     </div>
