@@ -89,14 +89,21 @@
       } */
       
       .nav-item {
-        line-height: 40px;
+        line-height: 90px;
         margin-right: 4rem;
         color: white;
         font-family: 'Poppins', sans-serif;
         cursor: pointer;
+     
         @include lg{
-          color: black;
+          color: rgb(255, 255, 255);
         }
+       
+          .link{
+            color: rgb(255, 255, 255);
+            
+          }
+        
       }
       
       .nav-item:after {
@@ -145,7 +152,7 @@
         }
       
         .nav-menu.active {
-          background: #55e6a5;
+          background: #141C27;
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;
@@ -178,6 +185,6 @@
           color: #ffffff;
         }
       }
-      
+   
 }
 

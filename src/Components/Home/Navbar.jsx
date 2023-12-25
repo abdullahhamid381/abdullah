@@ -43,13 +43,13 @@ function Navbar() {
           <div style={{marginLeft:'-80px'}}>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-          <Link to='/' style={{color:'white',textDecoration:'none'}}>
+          <Link to='/' className="link" style={{textDecoration:'none'}}>
           Home
           </Link>
             </li>
           
             <li className="nav-item">
-       <Link to='/about' style={{color:'white',textDecoration:'none'}}>
+       <Link to='/about'className="link" style={{textDecoration:'none'}}>
        About
        </Link>
             </li>
