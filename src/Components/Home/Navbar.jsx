@@ -89,16 +89,13 @@ function Navbar() {
 
             {click ? (
               <span className="icon">
-               <div className="logo">
-     <img src="./images/ham.jpg" alt="" />
-         </div>
+               <AiOutlineClose />{" "}
               </span>
             ) : (
               <span className="icon" >
 
-<div className="logo">
-     <img src="./images/cross.jpg" alt="" />
-         </div>
+                
+                <GiHamburgerMenu />
               </span>
             )}
           </div>

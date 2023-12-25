@@ -124,6 +124,7 @@
         display: inline-block;
         width: 2rem;
         height: 2rem;
+        font-size: 45px;
       }
       
       @media screen and (max-width: 992px) {
@@ -131,7 +132,7 @@
           display: flex;
           flex-direction: column;
           width: 100%;
-          border-top: 1pxsolid #fff;
+          border-top: 1px solid #fff;
           position: absolute;
           top: 80px;
           left: -110%;
@@ -140,11 +141,11 @@
         }
       
         .nav-menu.active {
-          background: #1f5156;
-          left: 0px;
-          opacity: 1;
-          transition: all 0.5s ease;
-          z-index: 1;
+          background: #55e6a5;
+    left: 0px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
         }
         .nav-item .active {
           color: #55E6A5;
@@ -165,12 +166,12 @@
           display: block;
           position: absolute;
           top: 50%;
-          right: 0;
+          right: 10px;
           transform: translate(-100%, -50%);
           width: 2rem;
-          height: 2rem;
+        
           cursor: pointer;
-          color: #ffdd40;
+          color: #ffffff;
         }
       }
       
