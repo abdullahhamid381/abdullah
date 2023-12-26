@@ -19,7 +19,7 @@
       margin: auto;
       padding: 120px 0;
 @include lg{
-  
+  grid-template-columns: 1fr;
 }
       .typing-animation {
         h1 {
