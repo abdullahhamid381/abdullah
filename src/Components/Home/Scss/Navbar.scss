@@ -29,6 +29,12 @@
       padding: 40px 135px;
    
     }
+    @include mobile{
+      padding: 40px 80px;
+    }
+    @include xxsmobile{
+      padding: 40px 70px;
+    }
     .contact{
     margin-right: -40px;
     @include lg{
