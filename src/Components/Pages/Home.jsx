@@ -14,8 +14,8 @@ const Home = () => {
     <div>
       <MouseTracker/>
         <Navbar/>
-        {/* <Hero/>
-        <FormDetail/>
+         <Hero/>
+       {/* <FormDetail/>
         <About/>
         <Skills/>
         <Slider/>
