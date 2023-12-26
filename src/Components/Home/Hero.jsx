@@ -39,7 +39,7 @@ const Hero = () => {
             <a href="Abdullah Hamid Cv.pdf" download='Abdullah Hamid Cv.pdf'>  <button className='download'>Download Cv <FiDownload /></button></a>
               <div className='play-parent' onClick={handleOpen}>
                 <button className='play'><FaPlay style={{ marginTop: '5px', marginLeft: '5px' }} /> </button>
-<span>Watch The Intro</span>
+{/* <span>Watch The Intro</span> */}
               </div>
              
                 
