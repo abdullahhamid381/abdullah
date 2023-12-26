@@ -18,7 +18,9 @@
       width: 100%;
       margin: auto;
       padding: 120px 0;
-
+@include lg{
+  
+}
       .typing-animation {
         h1 {
           color: white;
