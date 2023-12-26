@@ -19,7 +19,7 @@
       margin: auto;
       padding: 120px 0;
 @include lg{
-  grid-template-columns: 1fr;
+  max-width: 1600px;
 }
       .typing-animation {
         h1 {
@@ -96,6 +96,9 @@ transition: .8S;
         img {
           width: 100%;
           margin-left: 70px;
+          @include lg{
+            display: none;
+          }
         }
 
         
