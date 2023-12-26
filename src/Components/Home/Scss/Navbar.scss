@@ -19,7 +19,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+   width: 100%;
+   max-width: 1210px;
+   margin: auto;
     position: relative;;
 
     /* height: 0; */
