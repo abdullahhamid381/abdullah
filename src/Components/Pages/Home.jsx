@@ -18,8 +18,9 @@ const Home = () => {
          <FormDetail/> 
         <About/>
         <Skills/>
-       {/*  <Slider/>
         <Subscribe/>
+       {/*  <Slider/>
+       
         <Footer/> */}
     </div>
   )
