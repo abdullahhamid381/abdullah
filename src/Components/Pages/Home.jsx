@@ -12,7 +12,7 @@ import Footer from '../Home/Footer'
 const Home = () => {
   return (
     <div>
-      <MouseTracker/>
+      {/* <MouseTracker/> */}
         <Navbar/>
         <Hero/>
          <FormDetail/> 
