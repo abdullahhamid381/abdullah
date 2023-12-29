@@ -6,17 +6,8 @@ import Modal from '@mui/material/Modal';
 import { IoIosSend } from "react-icons/io";
 import { IoMdClose } from "react-icons/io";
 import './Scss/Form.scss'
-const style = {
-  position: 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  width: 400,
-  bgcolor: '#141C27',
+import './Scss/Mediaquery.scss'
 
-  boxShadow: 24,
-  p: 4,
-};
 
 export const Form = () => {
   const [open, setOpen] = useState(false);
@@ -121,9 +112,9 @@ export const Form = () => {
           open={open}
           onClose={handleClose}
           aria-labelledby="modal-modal-title"
-          aria-describedby="modal-modal-description" className='modalb'
+          aria-describedby="modal-modal-description" 
         >
-          <Box sx={style}>
+          <Box className='modalbox'>
             {submitSuccess ? (
               <>
                 <div style={{ position: 'relative' }}>
