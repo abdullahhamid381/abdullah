@@ -129,7 +129,7 @@ export const Form = () => {
                 <div style={{ position: 'relative' }}>
                   <div>
                     <center>  <img src="./images/verifytwo.gif" alt="" style={{ width: '10%' }} /></center>
-                    <IoMdClose style={{ position: 'absolute', top: '-20px', right: '-10', color: 'white', fontSize: '18px', cursor: 'pointer' }} onClose={handleClose} />
+                    {/* <IoMdClose style={{ position: 'absolute', top: '-20px', right: '-10', color: 'white', fontSize: '18px', cursor: 'pointer' }} onClose={handleClose} /> */}
                   </div>
                   <Typography id="modal-modal-title" variant="h6" component="h2">
                     <p style={{ color: 'white', textAlign: 'center', margin: '0' }}>Thank you for contacting!</p>
