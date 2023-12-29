@@ -13,8 +13,8 @@ const Home = () => {
   return (
     <div>
       <MouseTracker/>
-        {/* <Navbar/>
-        <Hero/> */}
+        <Navbar/>
+        <Hero/>
          <FormDetail/> 
         {/* <About/>
         <Skills/>
