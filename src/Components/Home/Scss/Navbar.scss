@@ -29,6 +29,9 @@
       padding: 40px 135px;
    
     }
+    @include sms{
+      padding: 40px 94px;
+    }
     @include mobile{
       padding: 40px 80px;
     }
