@@ -13,7 +13,7 @@ const About = () => {
                             exceptional portfolios</h1>
                     </div>
                     <div className='about-info'>
-                        <div>
+                        <div className='button'>
                             <button></button>
                         </div>
                         <div className='about-detail-text'>

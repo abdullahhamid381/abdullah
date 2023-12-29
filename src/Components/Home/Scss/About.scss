@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
+@import './Mediaquery.scss';
 .about-parent{
  
  background: #02050A;
@@ -11,7 +12,12 @@
  display: grid;
  place-items: center;
  grid-template-columns: 1fr 1fr;
-
+@include lg{
+    grid-template-columns: 1fr ;
+    width: 80%;
+    margin: auto;
+    gap: 80px 0;
+}
  margin: auto;
  .about-text{
     h3{
@@ -32,14 +38,31 @@
         font-family: 'Poppins', sans-serif;
         color: white;
 line-height: 62px;
+@include mobile{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0;
+    padding: 10px 0 40px 0;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    line-height: 45px;
+
+}
     }
     .about-info{
         display: flex;
         gap: 50px;
+        @include mobile{
+            gap: 0;
+        }
         button{
             height: 0;
             padding: 0 40px;
-            margin-top: 23px
+            margin-top: 23px;
+            @include mobile{
+                display: none;
+            }
+            
         }
         .about-detail-text{
             p{
@@ -76,6 +99,9 @@ line-height: 62px;
     img{
         width: 100%;
         margin-left: 70px;
+        @include lg{
+            margin-left: 0;
+        }
     }
 }
     }
