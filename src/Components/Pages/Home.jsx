@@ -19,9 +19,10 @@ const Home = () => {
         <About/>
         <Skills/>
         <Subscribe/>
+        <Footer/> 
        {/*  <Slider/>
        
-        <Footer/> */}
+        */}
     </div>
   )
 }
