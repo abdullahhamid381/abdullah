@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 import './Scss/Review.scss';
 
 // import required modules
-import { FreeMode, Pagination } from 'swiper/modules';
+import { FreeMode } from 'swiper/modules';
 
 export default function Review() {
   return (
@@ -22,7 +22,7 @@ export default function Review() {
         pagination={{
           clickable: true,
         }}
-        modules={[FreeMode, Pagination]}
+        modules={[FreeMode]}
         className="mySwiper"
       >
         <SwiperSlide>Slide 1</SwiperSlide>
