@@ -1,6 +1,6 @@
   // MouseTracker.js
   import React, { useState, useEffect } from 'react';
-
+import './Scss/Tracker.scss'
   const MouseTracker = () => {
     const [position, setPosition] = useState({ x: 0, y: 0 });
 
@@ -17,7 +17,7 @@
     }, []);
 
     return (
-      <div style={{ position: '', height: '' }}>
+      <div style={{ position: '', height: '' }} className='tracker-parent'>
         <div
           style={{
             position: 'fixed',
