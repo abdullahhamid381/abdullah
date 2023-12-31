@@ -33,11 +33,11 @@ export const Reviewdata=[
         para:'Top-notch web solutions. Translated my vision into a stunning reality. Professional, efficient, and highly recommended.'
     },
     {
-        name:'Charlie Elijahs',
+        name:'Charlie Elijah',
         para:'Innovative and reliable web developer. Created a site that exceeded expectations. A true professional in every aspect.'
     },
     {
-        name:'Hello',
+        name:'Jack Oliver',
         para:'Talented developer, brought my website dreams to life. Responsive, efficient, and a pleasure to collaborate with.'
     },
 
