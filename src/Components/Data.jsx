@@ -19,7 +19,7 @@ export const Footerdata =[
     },
 ]
 
-export const Review=[
+export const Reviewdata=[
     {
         name:'Hello',
         para:'loremasnhfjksfjksdfksdfhjksdhfjdhfkhdksfjhksdfhk'

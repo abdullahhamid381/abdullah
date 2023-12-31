@@ -11,6 +11,7 @@ import './Scss/Review.scss';
 
 // import required modules
 import { FreeMode } from 'swiper/modules';
+import { Reviewdata } from '../Data';
 
 export default function Review() {
   return (
@@ -25,7 +26,18 @@ export default function Review() {
         modules={[FreeMode]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
+        {
+            Reviewdata.map((item)=>{
+                return(
+                    <SwiperSlide>
+                        <div>
+                            <h1>{item.name}</h1>
+                            <p>{item.para}</p>
+                        </div>
+                    </SwiperSlide>
+                )
+            })
+        }
      
       </Swiper>
     </div>
