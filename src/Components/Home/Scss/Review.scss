@@ -40,6 +40,9 @@
         padding: 40px 60px;
         height: 140px;
         cursor: pointer;
+        @include mobile{
+            height: 300px;
+        }
      .review-title{
         h1{
             color: white;
