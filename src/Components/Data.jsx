@@ -18,3 +18,27 @@ export const Footerdata =[
 
     },
 ]
+
+export const Review=[
+    {
+        name:'Hello',
+        para:'loremasnhfjksfjksdfksdfhjksdhfjdhfkhdksfjhksdfhk'
+    },
+    {
+        name:'Hello',
+        para:'loremasnhfjksfjksdfksdfhjksdhfjdhfkhdksfjhksdfhk'
+    },
+    {
+        name:'Hello',
+        para:'loremasnhfjksfjksdfksdfhjksdhfjdhfkhdksfjhksdfhk',
+    },
+    {
+        name:'Hello',
+        para:'loremasnhfjksfjksdfksdfhjksdhfjdhfkhdksfjhksdfhk',
+    },
+    {
+        name:'Hello',
+        para:'loremasnhfjksfjksdfksdfhjksdhfjdhfkhdksfjhksdfhk',
+    },
+
+]
