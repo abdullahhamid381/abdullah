@@ -13,13 +13,13 @@ import Review from '../Home/Review'
 const Home = () => {
   return (
     <div>
-      {/* <MouseTracker/>
+      <MouseTracker/>
         <Navbar/>
         <Hero/>
          <FormDetail/> 
         <About/>
         <Skills/>
-        <Subscribe/> */}
+        <Subscribe/>
      
         <Review/>
         <Footer/> 
