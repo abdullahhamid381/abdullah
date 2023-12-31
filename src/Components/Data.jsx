@@ -40,5 +40,13 @@ export const Reviewdata=[
         name:'Jack Oliver',
         para:'Talented developer, brought my website dreams to life. Responsive, efficient, and a pleasure to collaborate with.'
     },
+    {
+        name:'Sheikh Sohail',
+        para:'Exceptional coding prowess. Turned ideas into a dynamic, high-performance website. A skilled and reliable developer.'
+    },
+    {
+        name:'Jack Oliver',
+        para:'Talented developer, brought my website dreams to life. Responsive, efficient, and a pleasure to collaborate with.'
+    },
 
 ]
