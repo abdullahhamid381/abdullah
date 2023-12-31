@@ -1,6 +1,9 @@
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Box from '@mui/material/Box';
+import Rating from '@mui/material/Rating';
+import Typography from '@mui/material/Typography';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -14,6 +17,7 @@ import { FreeMode } from 'swiper/modules';
 import { Reviewdata } from '../Data';
 
 export default function Review() {
+    const [value, setValue] = React.useState(2);
   return (
     <div className='review-parent'>
         
@@ -32,6 +36,7 @@ export default function Review() {
                 return(
                     <SwiperSlide>
                         <div className='review-title'>
+                        <Rating name="read-only" value={value} readOnly />
                             <h1>{item.name}</h1>
                             <p>{item.para}</p>
                         </div>
