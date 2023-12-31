@@ -8,18 +8,20 @@ import MouseTracker from '../Home/MouseTracker'
 import Slider from '../Home/Slider'
 import {Subscribe} from '../Home/Subscribe'
 import Footer from '../Home/Footer'
+import Review from '../Home/Review'
 
 const Home = () => {
   return (
     <div>
-      <MouseTracker/>
+      {/* <MouseTracker/>
         <Navbar/>
         <Hero/>
          <FormDetail/> 
         <About/>
         <Skills/>
-        <Subscribe/>
+        <Subscribe/> */}
         {/* <Footer/>  */}
+        <Review/>
        {/*  <Slider/>
        
         */}

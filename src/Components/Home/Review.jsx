@@ -12,7 +12,7 @@ import './Scss/Review.scss';
 // import required modules
 import { FreeMode, Pagination } from 'swiper/modules';
 
-export default function App() {
+export default function Review() {
   return (
     <div className='review-parent'>
       <Swiper
