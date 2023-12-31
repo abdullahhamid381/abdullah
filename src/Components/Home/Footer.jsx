@@ -33,10 +33,10 @@ const Footer = () => {
 <a href="https://github.com/abdullahhamid381" target="_blank">
 <span> <FaGithub /> </span>
 </a>
-
+<a href="https://www.linkedin.com/in/abdullah-reactjs-developer-a83420241/" target='_blank'>
 <span><FaLinkedin />
 </span>
-
+</a>
    <span>
 <MdMarkEmailRead />
 </span>
