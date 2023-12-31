@@ -1,16 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
 .review-parent{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
     .swiper {
         width: 100%;
         height: 100%;
       }
       
       .swiper-slide {
-       
+       border: 1px solid #333F4D;
         font-size: 18px;
-        background: #fff;
-      
+        background: #02050A;
+      padding: 60px;
         /* Center slide text vertically */
-     
+     .review-title{
+        h1{
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            font-size: 22px;
+            font-weight: 500;
+            margin-top: 17px;
+            margin-bottom: 10px;
+
+        }
+        p{
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+     }
       }
       
       .swiper-slide img {

@@ -30,15 +30,15 @@ export const Reviewdata=[
     },
     {
         name:'Hello',
-        para:'loremasnhfjksfjksdfksdfhjksdhfjdhfkhdksfjhksdfhk',
+        para:'loremasnhfjksfjksdfksdfhjksdhfjdhfkhdksfjhksdfhk'
     },
     {
         name:'Hello',
-        para:'loremasnhfjksfjksdfksdfhjksdhfjdhfkhdksfjhksdfhk',
+        para:'loremasnhfjksfjksdfksdfhjksdhfjdhfkhdksfjhksdfhk'
     },
     {
         name:'Hello',
-        para:'loremasnhfjksfjksdfksdfhjksdhfjdhfkhdksfjhksdfhk',
+        para:'loremasnhfjksfjksdfksdfhjksdhfjdhfkhdksfjhksdfhk'
     },
 
 ]

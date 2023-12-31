@@ -16,6 +16,7 @@ import { Reviewdata } from '../Data';
 export default function Review() {
   return (
     <div className='review-parent'>
+        
       <Swiper
         slidesPerView={2}
         spaceBetween={30}
@@ -30,7 +31,7 @@ export default function Review() {
             Reviewdata.map((item)=>{
                 return(
                     <SwiperSlide>
-                        <div>
+                        <div className='review-title'>
                             <h1>{item.name}</h1>
                             <p>{item.para}</p>
                         </div>
