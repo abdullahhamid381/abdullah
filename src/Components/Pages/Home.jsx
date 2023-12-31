@@ -22,6 +22,7 @@ const Home = () => {
         <Subscribe/> */}
      
         <Review/>
+        <Footer/> 
        {/*  <Slider/>
        
         */}
