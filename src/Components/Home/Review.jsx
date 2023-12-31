@@ -22,7 +22,8 @@ export default function Review() {
     const [valueth, setValueth] = React.useState(3);
   return (
     <div className='review-parent'>
-        
+        <p className='client'>CLIENTS REVIEW</p>
+        <h1 className='testi'>My testomonial</h1>
       <Swiper
         slidesPerView={2}
         spaceBetween={30}
