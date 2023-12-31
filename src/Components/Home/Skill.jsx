@@ -2,16 +2,13 @@ import React, { useEffect, useRef, useState } from 'react';
 import './Scss/Skill.scss';
 
 const ProgressBar = ({ label, percentage, isActive }) => (
-    <div className={`progress-bar ${isActive ? 'active' : ''}`}>
-      <div className="label">{label}</div>
-      <div className="bar-container">
-        <div className="bar" style={{ width: `${isActive ? percentage : 0}%` }}>
-          {isActive && <div className="percentage">{`${''}`}</div>}
-        </div>
-      </div>
+  <div className={`progress-bar ${isActive ? 'active' : ''}`}>
+    <div className="label">{label}</div>
+    <div className="bar-container">
+      <div className="bar" style={{ width: `${isActive ? percentage : 0}%` }}></div>
     </div>
-  );
-  
+  </div>
+);
 
 const Skills = () => {
   const progressBarsData = [
@@ -24,6 +21,7 @@ const Skills = () => {
   ];
 
   const [isActive, setIsActive] = useState(false);
+  const [hasAnimated, setHasAnimated] = useState(false);
 
   const sectionRef = useRef(null);
 
@@ -36,10 +34,9 @@ const Skills = () => {
 
     const callback = (entries) => {
       entries.forEach((entry) => {
-        if (entry.isIntersecting) {
+        if (entry.isIntersecting && !hasAnimated) {
           setIsActive(true);
-        } else {
-          setIsActive(false);
+          setHasAnimated(true);
         }
       });
     };
@@ -55,32 +52,30 @@ const Skills = () => {
         observer.unobserve(sectionRef.current);
       }
     };
-  }, []);
+  }, [hasAnimated]);
 
   return (
-<div className="skill-back-parent" id='skill'>
-    <div className="skill-width">
-    <div>
-      <div className="section" ref={sectionRef}>
-        <h3>Skill Experience</h3>
-        <h2>Showcasing your talent
-amplifying your impact
-</h2>
-      </div>
+    <div className="skill-back-parent" id="skill">
+      <div className="skill-width">
+        <div>
+          <div className="section" ref={sectionRef}>
+            <h3>Skill Experience</h3>
+            <h2>Showcasing your talent amplifying your impact</h2>
+          </div>
 
-      <div className="progress-bars">
-        {progressBarsData.map((bar, index) => (
-          <ProgressBar
-            key={index}
-            label={bar.label}
-            percentage={bar.percentage}
-            isActive={isActive}
-          />
-        ))}
+          <div className="progress-bars">
+            {progressBarsData.map((bar, index) => (
+              <ProgressBar
+                key={index}
+                label={bar.label}
+                percentage={bar.percentage}
+                isActive={isActive}
+              />
+            ))}
+          </div>
+        </div>
       </div>
     </div>
-    </div>
-</div>
   );
 };
 
