@@ -5,7 +5,7 @@
     width: 100%;
     max-width: 1300px;
     margin: auto;
-    padding-top: 120px;
+    padding: 120px 0;
     @include lg{
         width: 80%;
         margin: auto;
@@ -55,8 +55,24 @@
         }
         p{
             color: white;
-            font-family: 'Poppins', sans-serif;
+            font-family: "Poppins", sans-serif;
             font-size: 16px;
+            width: 90%;
+            @include lg{
+                width: 100%;
+            }
+        
+        }
+        .para{
+            display: flex;
+            justify-content: space-between;
+            span{
+                color: #55E6A5;
+                font-size: 38px;
+                @include lg{
+                    display: none;
+                }
+            }
         }
      }
       }

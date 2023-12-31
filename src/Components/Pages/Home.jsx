@@ -19,9 +19,10 @@ const Home = () => {
          <FormDetail/> 
         <About/>
         <Skills/>
+        <Review/>
         <Subscribe/>
      
-        <Review/>
+     
         <Footer/> 
        {/*  <Slider/>
        

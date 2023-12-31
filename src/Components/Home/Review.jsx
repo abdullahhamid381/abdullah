@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import Box from '@mui/material/Box';
 import Rating from '@mui/material/Rating';
 import Typography from '@mui/material/Typography';
-
+import { FaQuoteRight } from "react-icons/fa";
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/free-mode';
@@ -43,7 +43,10 @@ export default function Review() {
                         <Rating name="read-only" value={value} readOnly />
                         
                             <h1>{item.name}</h1>
+                            <div className='para'>
                             <p>{item.para}</p>
+                            <span><FaQuoteRight /></span>
+                            </div>
                         </div>
                     </SwiperSlide>
                 )
