@@ -2,6 +2,6 @@
 .tracker-parent{
 display: block;
     @include lg{
-        display: none;
+        display: none !important;
     }
 }
