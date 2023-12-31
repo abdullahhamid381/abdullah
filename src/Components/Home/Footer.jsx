@@ -28,7 +28,7 @@ const Footer = () => {
 
  </div>
  <div className='copyright'>
-  <span> © Abdullah Dev 2023 | All Rights Reserved </span>
+  <span> © Abdullah Dev 2024 | All Rights Reserved </span>
 <div className="icons">
 <a href="https://github.com/abdullahhamid381" target="_blank">
 <span> <FaGithub /> </span>
