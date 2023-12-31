@@ -26,6 +26,7 @@ export default function Review() {
       <Swiper
         slidesPerView={2}
         spaceBetween={30}
+        loop={true}
         freeMode={true}
         pagination={{
           clickable: true,
