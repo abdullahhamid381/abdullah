@@ -21,24 +21,24 @@ export const Footerdata =[
 
 export const Reviewdata=[
     {
-        name:'Hello',
-        para:'loremasnhfjksfjksdfksdfhjksdhfjdhfkhdksfjhksdfhk'
+        name:'Armin Van Buuren',
+        para:'Exceptional skills, transformed my website. Timely, innovative, and a pleasure to work with. A++'
+    },
+    {
+        name:'Hassnain Alvi',
+        para:'Outstanding web developer! Sleek designs, flawless functionality, and impeccable attention to detail. Highly recommend.'
+    },
+    {
+        name:'Alexander Walker',
+        para:'Top-notch web solutions. Translated my vision into a stunning reality. Professional, efficient, and highly recommended.'
+    },
+    {
+        name:'Charlie Elijahs',
+        para:'Innovative and reliable web developer. Created a site that exceeded expectations. A true professional in every aspect.'
     },
     {
         name:'Hello',
-        para:'loremasnhfjksfjksdfksdfhjksdhfjdhfkhdksfjhksdfhk'
-    },
-    {
-        name:'Hello',
-        para:'loremasnhfjksfjksdfksdfhjksdhfjdhfkhdksfjhksdfhk'
-    },
-    {
-        name:'Hello',
-        para:'loremasnhfjksfjksdfksdfhjksdhfjdhfkhdksfjhksdfhk'
-    },
-    {
-        name:'Hello',
-        para:'loremasnhfjksfjksdfksdfhjksdhfjdhfkhdksfjhksdfhk'
+        para:'Talented developer, brought my website dreams to life. Responsive, efficient, and a pleasure to collaborate with.'
     },
 
 ]

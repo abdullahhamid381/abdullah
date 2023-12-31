@@ -17,7 +17,9 @@ import { FreeMode } from 'swiper/modules';
 import { Reviewdata } from '../Data';
 
 export default function Review() {
-    const [value, setValue] = React.useState(2);
+    const [value, setValue] = React.useState(5);
+    const [valuet, setValuet] = React.useState(4);
+    const [valueth, setValueth] = React.useState(3);
   return (
     <div className='review-parent'>
         
@@ -37,6 +39,7 @@ export default function Review() {
                     <SwiperSlide>
                         <div className='review-title'>
                         <Rating name="read-only" value={value} readOnly />
+                        
                             <h1>{item.name}</h1>
                             <p>{item.para}</p>
                         </div>
